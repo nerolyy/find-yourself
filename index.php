@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>FindYourself</title>
-    <link rel="stylesheet" href="assets/css/style.css">
+   <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
     <header class="header">
@@ -30,13 +30,13 @@
 
     <div class="sidebar-menu">
         <button type="button" class="sidebar-button">
-            <img class="sidebar-icon" src="#" alt="" >
+            <img class="sidebar-icon" src="assets/images/test.png" alt="" >
             <span class="sidebar-text">Тест на профориентацию</span>
             <span class="sidebar-arrow" aria-hidden="true">›</span>
         </button>
 
         <button type="button" class="sidebar-button">
-            <img class="sidebar-icon" src="assets/images/interests.svg" alt="">
+            <img class="sidebar-icon" src="assets/images/find.png" alt="">
             <span class="sidebar-text">Подбор профессии по интересам</span>
             <span class="sidebar-arrow" aria-hidden="true">›</span>
         </button>
@@ -118,5 +118,15 @@
             </section>
         </div>
     </main>
+    <footer class="footer">
+    <div class="footer-inner">
+        <a href="index.php" class="logo"><span>Find</span>Yourself</a>
+        <p class="ftdesc">Найди свою профессию</p>
+    </div>
+
+    <p class="copyright">
+        © <?php echo date('Y'); ?> FindYourself
+    </p>
+</footer>
 </body>
 </html>
