@@ -278,6 +278,11 @@ input:focus-visible,
     outline: 2px solid #925c65;
     outline-offset: 3px;
 }
+.category-card,
+.category-card:visited {
+    color: #251d1b;
+    text-decoration: none;
+}
 
 .footer {
     margin-top: 40px;
