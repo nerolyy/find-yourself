@@ -1,0 +1,128 @@
+.category-header .search {
+    max-width: 520px;
+}
+
+.subcategory-main h1 {
+    text-align: left;
+}
+
+.section-title {
+    margin: 10px 0 35px;
+    font-size: 28px;
+    font-weight: 400;
+    text-align: center;
+    color: #8a4d57;
+}
+
+.edu-section {
+    padding-bottom: 30px;
+    margin-bottom: 35px;
+    border-bottom: 1px solid #c9a7ab;
+}
+
+.edu-heading {
+    margin: 0 0 20px;
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.edu-heading-right {
+    text-align: right;
+}
+
+.edu-box {
+    max-width: 640px;
+    min-height: 220px;
+    padding: 26px 30px;
+    background-color: #efd8d0;
+    border: 1px solid #dfc7bd;
+    border-radius: 25px;
+}
+
+.edu-box-right {
+    margin-left: auto;
+}
+
+.edu-box ul,
+.edu-box p {
+    margin: 0;
+    padding-left: 18px;
+    font-size: 18px;
+    line-height: 1.55;
+}
+
+.edu-box p {
+    padding-left: 0;
+}
+
+.duration {
+    margin: 18px 0 0;
+    font-size: 18px;
+    color: #8a4d57;
+}
+
+.duration-right {
+    text-align: right;
+}
+
+.bottom-actions {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+    padding-top: 10px;
+    text-align: center;
+}
+
+.bottom-actions h3 {
+    margin: 0 0 18px;
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.pill-link {
+    display: inline-block;
+    padding: 12px 24px;
+    color: #251d1b;
+    background-color: #e7bac2;
+    border: none;
+    border-radius: 18px;
+    text-decoration: none;
+    transition: background-color 0.2s;
+}
+
+.pill-link:hover {
+    background-color: #dba5af;
+}
+
+.empty-note {
+    margin: 0;
+    color: #725c62;
+}
+
+.anketa-form {
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+    max-width: 520px;
+    margin: 0 auto;
+}
+
+.anketa-form label {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.anketa-form input,
+.anketa-form textarea {
+    padding: 12px 16px;
+    font: inherit;
+    background-color: #fffafa;
+    border: 1px solid #d5b5ba;
+    border-radius: 18px;
+}
+
+.anketa-submit {
+    align-self: center;
+    cursor: pointer;
+}
