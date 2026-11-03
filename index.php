@@ -1,6 +1,15 @@
 <?php
 require __DIR__ . '/includes/db.php';
-require __DIR__ . '/includes/helpers.php';
+
+function e(?string $value): string
+{
+    return htmlspecialchars((string) $value, ENT_QUOTES | ENT_SUBSTITUTE, 'UTF-8');
+}
+
+function asset(string $path): string
+{
+    return 'assets/' . ltrim($path, '/');
+}
 
 $categories = $pdo->query(
     'SELECT slug, name, image FROM categories ORDER BY sort_order, id'
