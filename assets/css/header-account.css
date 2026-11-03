@@ -1,0 +1,29 @@
+.header-profile-link {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 48px;
+    padding: 10px 20px;
+    color: inherit;
+    background-color: #fae9e9;
+    border-radius: 18px;
+    text-decoration: none;
+    box-shadow: 0 3px 10px rgba(112, 66, 75, 0.05);
+    transition: background-color 0.2s, transform 0.2s;
+}
+
+.header-profile-link img {
+    display: block;
+    width: 26px;
+    height: 26px;
+}
+
+.header-profile-link:hover {
+    background-color: #f5dce0;
+    transform: translateY(-2px);
+}
+
+.header-profile-link:focus-visible {
+    outline: 2px solid #925c65;
+    outline-offset: 3px;
+}

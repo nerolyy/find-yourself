@@ -26,7 +26,13 @@ $searchValue = $searchValue ?? '';
 </head>
 
 <body>
-<?php if ($headerVariant === 'main'): ?>
+<?php if ($headerVariant === 'auth'): ?>
+    <header class="category-header category-header-auth">
+        <a href="index.php" class="logo">
+            <span>Find</span>Yourself
+        </a>
+    </header>
+<?php elseif ($headerVariant === 'main'): ?>
     <header class="header">
         <a href="index.php" class="logo">
             <span>Find</span>Yourself

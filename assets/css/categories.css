@@ -28,6 +28,10 @@ body > footer {
     white-space: nowrap;
 }
 
+.category-header-auth {
+    grid-template-columns: auto;
+}
+
 .back-link {
     padding: 12px 24px;
     color: #251d1b;

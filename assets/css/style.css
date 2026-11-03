@@ -121,7 +121,7 @@ button {
 }
  
 .sidebar {
-    min-height: 850px;
+    align-self: start;
     padding: 28px 18px;
     background-color: #f3dfda;
     border: 1px solid #dfc7bd;
@@ -285,7 +285,7 @@ input:focus-visible,
 }
 
 .footer {
-    margin-top: 40px;
+    margin-top: 30px;
     padding: 30px 35px 20px;
     background-color: #efd2d3;
     border-top: 1px solid #d5b5ba;
